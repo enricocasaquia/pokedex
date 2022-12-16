@@ -27,13 +27,246 @@ body {
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 3px 3px 5px;
-    background-color: #49d0b0;
     display: flex;
     flex-direction: column;
 }
 
+.normal {
+    background-color: #a6a877;
+    background-image: url("../img/types/Pokemon_Type_Icon_Normal.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#normal {
+    background-color: #a6a877;
+    filter: brightness(1.2);
+}
+
+.grass {
+    background-color: #76c850;
+    background-image: url("../img/types/Pokemon_Type_Icon_Grass.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#grass {
+    background-color: #76c850;
+    filter: brightness(1.2);
+}
+
+.fire {
+    background-color: #ee7f30;
+    background-image: url("../img/types/Pokemon_Type_Icon_Fire.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#fire {
+    background-color: #e34616;
+    filter: brightness(1.2);
+}
+
+.water {
+    background-color: #678fee;
+    background-image: url("../img/types/Pokemon_Type_Icon_Water.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#water {
+    background-color: #678fee;
+    filter: brightness(1.2);
+}
+
+.electric {
+    background-color: #f0c000;
+    background-image: url("../img/types/Pokemon_Type_Icon_Electric.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#electric {
+    background-color: #dfb60f;
+    filter: brightness(1.2);
+}
+
+.ice {
+    background-color: #98d5d7;
+    background-image: url("../img/types/Pokemon_Type_Icon_Ice.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#ice {
+    background-color: #98d5d7;
+    filter: brightness(1.2);
+}
+
+.ground {
+    background-color: #dfbf69;
+    background-image: url("../img/types/Pokemon_Type_Icon_Ground.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#ground {
+    background-color: #af9833;
+    filter: brightness(1.2);
+}
+
+.flying {
+    background-color: #a98ff0;
+    background-image: url("../img/types/Pokemon_Type_Icon_Flying.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#flying {
+    background-color: #5d72bc;
+    filter: brightness(1.2);
+}
+
+.poison {
+    background-color: #a040a0;
+    background-image: url("../img/types/Pokemon_Type_Icon_Poison.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#poison {
+    background-color: #a040a0;
+    filter: brightness(1.2);
+}
+
+.fighting {
+    background-color: #771f1a;
+    background-image: url("../img/types/Pokemon_Type_Icon_Fighting.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#fighting {
+    background-color: #7c211d;
+    filter: brightness(1.2);
+}
+
+.psychic {
+    background-color: #f65687;
+    background-image: url("../img/types/Pokemon_Type_Icon_Psychic.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#psychic {
+    background-color: #fe6493;
+    filter: brightness(1.2);
+}
+
+.dark {
+    background-color: #725847;
+    background-image: url("../img/types/Pokemon_Type_Icon_Dark.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#dark {
+    background-color: #725847;
+    filter: brightness(1.2);
+}
+
+.rock {
+    background-color: #b8a137;
+    background-image: url("../img/types/Pokemon_Type_Icon_Rock.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#rock {
+    background-color: #ae9654;
+    filter: brightness(1.2);
+}
+
+.bug {
+    background-color: #a8b720;
+    background-image: url("../img/types/Pokemon_Type_Icon_Bug.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#bug {
+    background-color: #a8b720;
+    filter: brightness(1.2);
+}
+
+.ghost {
+    background-color: #6e5896;
+    background-image: url("../img/types/Pokemon_Type_Icon_Ghost.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#ghost {
+    background-color: #8068ae;
+    filter: brightness(1.2);
+}
+
+.steel {
+    background-color: #b9b7cf;
+    background-image: url("../img/types/Pokemon_Type_Icon_Steel.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#steel {
+    background-color: #b9b7cf;
+    filter: brightness(1.2);
+}
+
+.dragon {
+    background-color: #6f38f6;
+    background-image: url("../img/types/Pokemon_Type_Icon_Dragon.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#dragon {
+    background-color: #703af8;
+    filter: brightness(1.2);
+}
+
+.fairy {
+    background-color: #f9aec7;
+    background-image: url("../img/types/Pokemon_Type_Icon_Fairy.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 6rem;
+}
+#fairy {
+    background-color: #f9aec7;
+    filter: brightness(1.2);
+}
+
 .number {
-    color: #369f87;
+    color: #000000;
     opacity: 0.7;
     text-align: right;
     font-size: 0.825rem;
@@ -41,6 +274,8 @@ body {
 
 .name {
     color: #FFFFFF;
+    font-size: 1.2rem;
+    text-transform: capitalize;
     margin: 0.25rem 0rem 0.25rem;
 }
 
@@ -51,25 +286,43 @@ body {
     align-items: center;
 }
 
-.type {
+.types {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.type li {
+.types li {
     margin-bottom: 0.5rem;
-    background-color: #61e1ca;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
     border-radius: 1rem;
     padding: 0.3rem;
     font-size: 0.825rem;
+    text-align: center;
 }
 
 img {
     max-width: 100%;
     height: 100px;
     align-self: flex-end;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+button {
+    background-color: #d6d6d6;
+    color: #000000;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
 }
 
 @media screen and (min-width: 380px) {
